@@ -8,6 +8,7 @@ import About from './page/About';
 import Products from './page/Products';
 import Blog from './page/Blog';
 import Blogpage from './page/Blogpage';
+import Contact from './page/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogpage" element={<Blogpage />} />
+        <Route path="/contact" element={<Contact/>} />
 </Routes>
     </>
   )

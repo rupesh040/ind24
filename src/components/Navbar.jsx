@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>:""}
 
              </div>
-             <div className='cursor-pointer hover:text-[#1AB69D] py-5'>Contact us</div>
+             <div className='cursor-pointer hover:text-[#1AB69D] py-5' onClick={() => navigate("/contact")}>Contact us</div>
              <div className='cursor-pointer hover:text-[#1AB69D] py-5' onClick={() => navigate("/blog")}>Blog</div>
              <div className='cursor-pointer hover:text-[#1AB69D] py-5'>About</div>
         </div>

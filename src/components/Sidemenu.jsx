@@ -35,7 +35,7 @@ const Sidemenu = ({close,closeLogin}) => {
 
 
          </div>
-        <div className='cursor-pointer hover:text-[#1AB69D] text-black text-2xl px-4 py-1 font-semibold hover:shadow-md border-[1px] border-zinc-300 m-2 rounded-lg'>Contact us</div>
+        <div className='cursor-pointer hover:text-[#1AB69D] text-black text-2xl px-4 py-1 font-semibold hover:shadow-md border-[1px] border-zinc-300 m-2 rounded-lg' onClick={() => navigate("/contact")}>Contact us</div>
         <div className='cursor-pointer hover:text-[#1AB69D] text-black text-2xl px-4 py-1 font-semibold hover:shadow-md border-[1px] border-zinc-300 m-2 rounded-lg' onClick={() => navigate("/blog")}>Blog</div>
         <div className='cursor-pointer hover:text-[#1AB69D] text-black text-2xl px-4 py-1 font-semibold hover:shadow-md border-[1px] border-zinc-300 m-2 rounded-lg'>About</div>
         <div className='cursor-pointer   text-2xl px-4 py-2 bg-[#1CB69B] text-center text-white font-semibold hover:shadow-md  mx-2 my-7 rounded-lg' onClick={closeSide}>Login</div>
